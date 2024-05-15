@@ -23,5 +23,3 @@ jobs:
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
           LESSONS: ${{ inputs.lessons }}
-          DUOLINGO_JWT2: ${{ secrets.DUOLINGO_JWT2 }}
-          LESSONS2: ${{ inputs.lessons }}
